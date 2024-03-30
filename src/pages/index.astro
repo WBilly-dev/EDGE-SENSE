@@ -1,42 +1,67 @@
 ---
-import BaseLayout from '@/layouts/BaseLayout.astro'
-import { buttonVariants } from '@/components/ui/button'
+import BaseLayout from '../layouts/BaseLayout.astro'
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from '../components/ui/card'
 ---
 
 <BaseLayout
   title="EDGE-AI"
-  description="This template helps you build apps with Astro, Tailwind CSS, and Shadcn UI."
+  description="Pioneering Artificial Intelligence Integrations."
 >
   <section class="container grid items-center gap-6 pb-8 pt-6 md:py-10">
     <div class="flex max-w-[980px] flex-col items-start gap-2">
       <h1
         class="text-3xl font-extrabold leading-tight tracking-tighter md:text-4xl"
       >
-        Astro Shadcn UI Template <br class="hidden sm:inline" />
-        built with Radix UI and Tailwind CSS.
+        EDGE AI: Pioneering Artificial Intelligence Integrations <br
+          class="hidden sm:inline"
+        />
       </h1>
-      <p class="max-w-[700px] text-lg text-muted-foreground">
-        Accessible and customizable components that you can copy and paste into
-        your apps. Free. Open Source.
+      <p class="text-xl">
+        We are dedicated to building advanced software solutions that integrate
+        Artificial Intelligence (AI) into businesses and fuel research in the AI
+        domain. Our mission is to assist companies, enterprises, institutions,
+        and individuals in transitioning seamlessly into the AI era.
+      </p>
+      <p class='text-xl text-muted-foreground'>
+        At EDGE AI, we understand that retaining customers is as crucial as
+        acquiring new ones. If your service company is experiencing customer
+        attrition, we’re here to help. Our team will analyze your situation,
+        understand the reasons behind the churn, and devise effective strategies
+        to mitigate it. Whether you’re looking to enhance your platform with
+        recommendation systems, require assistance with any task involving AI,
+        or simply wish to explore the potential of AI for your business, EDGE AI
+        is your reliable partner. Together, let’s shape the future with AI.
       </p>
     </div>
-    <div class="flex gap-4">
-      <a
-        href="https://ui.shadcn.com"
-        target="_blank"
-        rel="noreferrer"
-        class={buttonVariants()}
-      >
-        Documentation
-      </a>
-      <a
-        href="https://github.com/AREA44/astro-shadcn-ui-template"
-        target="_blank"
-        rel="noreferrer"
-        class={buttonVariants({ variant: 'outline' })}
-      >
-        GitHub
-      </a>
-    </div>
+    <h1
+      class="text-2xl font-extrabold leading-tight tracking-tighter md:text-4xl"
+    >
+      Features
+    </h1>
+
+    <section id="features">
+      <Card className="w-[350px]">
+        <CardHeader>
+          <CardTitle>EDGE-SENSE</CardTitle>
+          <CardDescription
+            >Deploy your new project in one-click.</CardDescription
+          >
+        </CardHeader>
+        <CardContent>
+          <div class="grid w-full items-center gap-4">
+            <div class="flex flex-col space-y-1.5"></div>
+            <div class="flex flex-col space-y-1.5"></div>
+          </div>
+        </CardContent>
+        <CardFooter className="flex justify-between" />
+      </Card>
+    </section>
   </section>
 </BaseLayout>
