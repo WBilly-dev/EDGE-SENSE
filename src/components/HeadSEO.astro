@@ -11,7 +11,7 @@ interface Props {
 const canonicalURL = new URL(Astro.url.pathname, Astro.site)
 
 if (Astro.props.ogImage === undefined) {
-  Astro.props.ogImage = new URL('edge-sense.png', canonicalURL)
+  Astro.props.ogImage = new URL('Edge-sense.png', canonicalURL)
 }
 
 const { title, description, ogImage } = Astro.props
