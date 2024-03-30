@@ -1,41 +1,27 @@
-# Astro Shadcn UI Template
+# EDGE-AI
 
-This template helps you build apps with Astro, Tailwind CSS, and Shadcn UI.
+Pioneering Artificial Intelligence Integrations
 
-## Getting Started
+## Who we are ?
 
-To get started with this application, make sure you have Node.js v18+ installed on your system. Then, follow these steps:
+We are dedicated to building advanced software solutions that integrate Artificial Intelligence (AI) into businesses and fuel research in the AI domain. Our mission is to assist companies, enterprises, institutions, and individuals in transitioning seamlessly into the AI era.
 
-```bash
-git clone --depth=1 https://github.com/AREA44/astro-shadcn-ui-template
-cd astro-shadcn-ui-template
-pnpm install
-pnpm dev
-```
-
-Now, you can open your browser and navigate to http://localhost:4321 to see the application running.
 
 ## Features
 
-- [Astro](https://astro.build): A modern static site builder that allows you to write components using familiar web standards like HTML, CSS, and JavaScript.
-- [Tailwind CSS](https://tailwindcss.com): A utility-first CSS framework that provides a set of pre-designed styling classes to rapidly build user interfaces.
-- [shadcn/ui](https://ui.shadcn.com): A collection of reusable UI components for building responsive and accessible interfaces.
-- The template includes support for a theme toggle, allowing users to switch between light and dark themes.
+-Recommendation Systems : We enhance platforms with sophisticated recommendation systems to boost customer engagement and satisfaction.   
+-Medical Imaging & Digital Health : We leverage AI to revolutionize medical imaging and digital health, aiding in faster and more accurate diagnoses.   
+-Real-Time Big Data Analytics : We provide real-time insights from massive data sets to help businesses make informed decisions swiftly.
+-Generative AI Integrations : We integrate generative AI into systems to create new, valuable content and solutions.
+-Anti-Fraud and Anti-Money Laundering Systems : We build robust systems to detect and prevent fraudulent activities, ensuring the security of your transactions.   
+-Data-Driven Decisions : We empower businesses to make strategic decisions based on comprehensive data analysis.
 
-## How to add components
+## Why us ?
 
-Shadcn UI is a collection of re-usable components that can be easily integrated into your applications. It is not a component library, but rather a set of components that you can copy and paste into your projects.
+At EDGE AI, we understand that retaining customers is as crucial as acquiring new ones. If your service company is experiencing customer attrition, we’re here to help. Our team will analyze your situation, understand the reasons behind the churn, and devise effective strategies to mitigate it.
+Whether you’re looking to enhance your platform with recommendation systems, require assistance with any task involving AI, or simply wish to explore the potential of AI for your business, EDGE AI is your reliable partner. Together, let’s shape the future with AI.
 
-To add a new component to your application, please refer to the [configuration guide](https://ui.shadcn.com/docs/installation/astro#thats-it).
 
-> [!NOTE]
-> In Astro, an [island](https://docs.astro.build/en/concepts/islands/) refers to any interactive UI component on the page. To add an interactive component like [Accordion](https://ui.shadcn.com/docs/components/accordion), [Dialog](https://ui.shadcn.com/docs/components/dialog) and more you have a couple of solutions available: [Add a Shadcn UI Component - Space Madness](https://spacemadness.dev/docs/add-a-shadcn-ui-component) or [shadcn-ui/ui#2890](https://github.com/AREA44/astro-shadcn-ui-template/issues/66).
-
-For detailed documentation on using Shadcn UI, please visit the [full documentation](https://ui.shadcn.com/docs).
-
-Shadcn UI is primarily built for the React framework. If you are unfamiliar with framework components in Astro, we recommend reading the [framework components guide](https://docs.astro.build/en/core-concepts/framework-components/) to get started.
-
-Feel free to explore the various components and enhance your application with Shadcn UI!
 
 ## License
 
