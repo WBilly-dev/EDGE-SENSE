@@ -1,13 +1,13 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro'
 import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from '../components/ui/card'
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from '../components/ui/accordion'
+import Features from '../components/Features.astro'
+import { Alert, AlertDescription, AlertTitle } from '../components/ui/alert'
 ---
 
 <BaseLayout
@@ -29,39 +29,30 @@ import {
         domain. Our mission is to assist companies, enterprises, institutions,
         and individuals in transitioning seamlessly into the AI era.
       </p>
-      <p class="text-xl text-muted-foreground">
-        At EDGE AI, we understand that retaining customers is as crucial as
-        acquiring new ones. If your service company is experiencing customer
-        attrition, we’re here to help. Our team will analyze your situation,
-        understand the reasons behind the churn, and devise effective strategies
-        to mitigate it. Whether you’re looking to enhance your platform with
-        recommendation systems, require assistance with any task involving AI,
-        or simply wish to explore the potential of AI for your business, EDGE AI
-        is your reliable partner. Together, let’s shape the future with AI.
-      </p>
     </div>
     <h1
       class="text-2xl font-extrabold leading-tight tracking-tighter md:text-4xl"
     >
-      Features
+      Products
     </h1>
-
-    <section id="features">
-      <Card className="w-[350px]">
-        <CardHeader>
-          <CardTitle>EDGE-SENSE</CardTitle>
-          <CardDescription
-            >Deploy your new project in one-click.</CardDescription
-          >
-        </CardHeader>
-        <CardContent>
-          <div class="grid w-full items-center gap-4">
-            <div class="flex flex-col space-y-1.5"></div>
-            <div class="flex flex-col space-y-1.5"></div>
-          </div>
-        </CardContent>
-        <CardFooter className="flex justify-between" />
-      </Card>
-    </section>
+    <div>
+      <Features />
+    </div>
+    <div>
+      <Alert>
+        <AlertTitle>Why us ? </AlertTitle>
+        <AlertDescription>
+          At EDGE AI, we understand that retaining customers is as crucial as
+          acquiring new ones. If your service company is experiencing customer
+          attrition, we’re here to help. Our team will analyze your situation,
+          understand the reasons behind the churn, and devise effective
+          strategies to mitigate it. Whether you’re looking to enhance your
+          platform with recommendation systems, require assistance with any task
+          involving AI, or simply wish to explore the potential of AI for your
+          business, EDGE AI is your reliable partner. Together, let’s shape the
+          future with AI.
+        </AlertDescription>
+      </Alert>
+    </div>
   </section>
 </BaseLayout>
